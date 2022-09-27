@@ -1,0 +1,70 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../Assets/assets-04.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 90%;
+  padding-top: 4rem;
+}
+@media only screen and (max-width: 1024px) {
+  .contact-container {
+    background-image: url("../Assets/assets-09.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 100%;
+  }
+  .contact-inner {
+    margin-bottom: 2rem;
+  }
+}
+/* inner div */
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+/* heading img icon */
+.contact-inner .about-us-heading {
+  width: 50%;
+}
+.contact-inner .contact-heading {
+  line-height: 1.3;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* our store text */
+.contact-inner h3 {
+  margin-bottom: 0.3rem;
+  font-weight: normal;
+}
+.social-container {
+  width: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-container img {
+  width: 50px;
+}
+.social-container img:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  /* heading img icon */
+  .contact-inner .about-us-heading {
+    width: 90%;
+  }
+  .contact-container {
+    padding: 5rem 0rem;
+    width: 100%;
+    height: 100%;
+  }
+}

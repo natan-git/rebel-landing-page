@@ -1,0 +1,96 @@
+.product-container {
+  position: relative;
+}
+.hamdani-blob {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+}
+.product-container-inner {
+  height: 500px;
+  width: 350px;
+  clip-path: polygon(5% 0, 95% 0, 100% 100%, 0% 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: -25px;
+  margin-top: 50px;
+}
+
+.product-container:nth-child(2) {
+  margin-bottom: 5rem;
+}
+.product-container:nth-child(4) {
+  margin-bottom: 5rem;
+}
+
+.wine-name {
+  font-size: 1.4rem;
+  color: white;
+  margin-left: 2rem;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.wine-img {
+  width: 45%;
+  height: 60%;
+}
+.product-container-inner p {
+  width: 80%;
+  text-align: center;
+  color: white;
+  line-height: 1.1;
+  font-family: ploniRegular;
+}
+
+.argaman {
+  background-color: #7a4891;
+}
+.dabuki {
+  background-color: #ce332c;
+  clip-path: polygon(0 0, 97% 1%, 90% 100%, 4% 99%);
+}
+.bituni {
+  background-color: #79bf96;
+  clip-path: polygon(5% 0, 92% 0, 100% 100%, 0 100%);
+}
+.jandali {
+  background-color: #d87caa;
+  clip-path: polygon(0 0, 97% 1%, 100% 100%, 1% 100%);
+}
+.hamdani {
+  background-color: #db9537;
+  clip-path: polygon(0 0, 97% 0, 100% 100%, 3% 100%);
+}
+.product-btn {
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px 15px 25px;
+  background-color: yellow;
+  font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 97% 100%, 5% 100%);
+}
+.product-btn:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .product-container:nth-child(2) {
+    margin-bottom: 0rem;
+  }
+  .product-container:nth-child(4) {
+    margin-bottom: 0rem;
+  }
+
+  .hamdani-blob {
+    display: none;
+  }
+}

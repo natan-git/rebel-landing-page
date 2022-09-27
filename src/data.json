@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "argaman",
+    "imgUrl": "argaman.png",
+    "headingUrl": "heading-argaman.png",
+    "mockupUrl": "mockup-argaman.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+    "color": "#7A4891",
+    "bars": {
+      "sweet": "50",
+      "beater": "30",
+      "sour": "20",
+      "salty": "10"
+    }
+  },
+  {
+    "id": "2",
+    "name": "dabuki",
+    "imgUrl": "dabuki.png",
+    "headingUrl": "heading-dabuki.png",
+    "mockupUrl": "mockup-dabuki.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+    "color": "#CE332C",
+    "bars": {
+      "sweet": "20",
+      "beater": "10",
+      "sour": "40",
+      "salty": "50"
+    }
+  },
+  {
+    "id": "3",
+    "name": "bituni",
+    "imgUrl": "bituni.png",
+    "headingUrl": "heading-bituni.png",
+    "mockupUrl": "mockup-bituni.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+    "color": "#79BF96",
+    "bars": {
+      "sweet": "50",
+      "beater": "30",
+      "sour": "60",
+      "salty": "20"
+    }
+  },
+  {
+    "id": "4",
+    "name": "jandali",
+    "imgUrl": "jandali.png",
+    "headingUrl": "heading-jandali.png",
+    "mockupUrl": "mockup-jandali.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+    "color": "#D87CAA",
+    "bars": {
+      "sweet": "50",
+      "beater": "30",
+      "sour": "20",
+      "salty": "10"
+    }
+  },
+  {
+    "id": "5",
+    "name": "hamdani",
+    "imgUrl": "hamdani.png",
+    "headingUrl": "heading-hamdani.png",
+    "mockupUrl": "mockup-hamdani.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years",
+    "shortDescription": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+    "color": "#DB9537",
+    "bars": {
+      "sweet": "50",
+      "beater": "30",
+      "sour": "20",
+      "salty": "10"
+    }
+  }
+]

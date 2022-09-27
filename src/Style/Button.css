@@ -1,0 +1,16 @@
+.button {
+  color: black;
+  padding: 1rem 5rem 1rem 5rem;
+  background-color: yellow;
+  font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 97% 100%, 5% 100%);
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .button {
+    padding: 1rem 3rem;
+  }
+}

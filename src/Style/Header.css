@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 9;
+  padding: 50px 5% 10px 5%;
+}
+
+.header-limiter {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  padding: 10px 0px 10px 0px;
+}
+
+nav > * {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-left: 20px;
+}
