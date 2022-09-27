@@ -42,11 +42,13 @@
   height: 60%;
 }
 .product-container-inner p {
-  width: 80%;
+  max-width: 80%;
+  text-overflow: ellipsis;
   text-align: center;
   color: white;
   line-height: 1.1;
   font-family: ploniRegular;
+  padding-top: 1rem;
 }
 
 .argaman {

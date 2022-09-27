@@ -20,10 +20,7 @@ const Product = (props) => {
           className="wine-img"
           src={require("../Assets/animals/" + props.product.imgUrl)}
         />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae.
-        </p>
+        <p>{props.product.shortDescription}</p>
       </div>
       <motion.div
         whileHover={{ scale: 1.2 }}

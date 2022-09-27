@@ -21,18 +21,20 @@
 .wild-wine-container h2 {
   max-width: 80%;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.8;
+  font-family: ploniRegular;
 }
 span {
   font-size: 1.8rem;
   line-height: 1.8;
 }
 .wile-wine-heading {
-  width: 60%;
+  width: 80%;
 }
 .wild-wine-container h2 span {
-  display: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 .icons-box {
   display: flex;
